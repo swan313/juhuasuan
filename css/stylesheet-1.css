@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+/* reset */
+body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block;  }
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;font-weight:normal;}
+body,fieldset,img,iframe,abbr{border:0;}
+i,cite,em,var,address,dfn{font-style:normal;}
+[hidefocus],summary{outline:0;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6,small{font-size:100%;}
+sup,sub{font-size:83%;}
+pre,code,kbd,samp{font-family:inherit;}
+q:before,q:after{content:none;}
+textarea{overflow:auto;resize:none;}
+label,summary{cursor:default;}
+a,button{cursor:pointer;}
+h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:bold;}
+del,ins,u,s,a,a:hover{text-decoration:none;}
+body,textarea,input,button,select,keygen,legend{font:12px/1.14 arial,\5b8b\4f53;color:#333;outline:0;}
+body{background:#fff;}
+a{color:#333;}
+a:hover{ color:#3da636;}
+body{font-family:"微软雅黑", Arial, Helvetica, sans-serif;height:auto;width:100%;}
+html{font-size:20px;}
+/*img{width:16rem;}*/
+/*浮动*/
+.fl{ float:left;}
+.fr{float:right;}
+
+/*清除浮动*/
+.clearfix:before , .clearfix:after{ content:""; display:table; }
+.clearfix:after { clear:both; overflow:hidden;  }
+.clearfix { zoom:1;/* IE  */ }
+
+/*超出范围用省略号代替*/
+.ellipsis { overflow:hidden; white-space:nowrap; text-overflow:ellipsis; letter-spacing:1px; }
+
+/*改变选中后的文本颜色*/
+.selectTextColor::selection  { background:#C60; color:#0F9; }
+.selectTextColor::-moz-selection  { background:#C60; color:#0F9; }
+
+
+.warp{
+    width: 1000px;
+    margin: 0 auto;
+    background:red;
+}
+.warp header{
+    /*width: 16rem;*/
+    /*height: 2.5rem;*/
+    text-align: center;
+    background:-webkit-linear-gradient(#fff,#ebebeb);
+    background:linear-gradient(#fff,#ebebeb);
+    position: relative;
+    top:0;
+    left:0;
+}
+header .back{
+    width: 130px;
+    height: 65px;
+    background:url(../images/back.png) no-repeat;
+    background-size:100%;
+    text-indent: -9999px;
+    position: absolute;
+    left:0.5rem;
+    top:0.5rem;
+}
+/*header img{
+    width: 9.4rem;
+    margin-top: 0.15rem;
+}
+.warp .banner{
+    width: 16rem;
+    height: 7.45rem;
+    position:relative;
+    top:0;
+    left:0;
+    overflow: hidden;
+}
+.banner ul{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 80rem;
+}
+.banner ul li{
+    width: 16rem;
+    height: 6.675rem;
+    float: left;
+}
+.banner ul li img{
+    width: 100%;
+}
+.banner ol{
+    position: absolute;
+    left: 50%;
+    bottom:0;
+    width: 2.5rem;
+    margin-left: -1.25rem;
+}
+.banner ol li{
+    width: 0.25rem;
+    height: 0.25rem;
+    border-radius:50%;
+    background-color:#a9a9a9;
+    float: left;
+    margin: 0 0.125rem;
+}
+.banner ol li.active{
+    background-color:#ff4300;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
